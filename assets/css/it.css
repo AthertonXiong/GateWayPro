@@ -1,0 +1,89 @@
+/* Universal tag */
+*{
+  margin:0;
+}
+/* Nav Bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/*
+.topnav a.active {
+  background-color: #4CA6F1;
+  color: white;
+}*/
+
+/****************** hero ********************/ 
+.hero {
+  width: 100%;
+  height: 400px;
+}
+/*********** IT Works **************/
+/* Cards */
+.wrapper {
+	display: flex;
+}
+.card {
+  transition: 0.3s;
+  width: 40%;
+}
+
+.container {
+  padding: 2px 16px;
+}
+/* Footer */
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: White;
+  text-align: center;
+  background-color: black;
+}
+
+.footer a{
+  border-radius: 20px;
+  font-size: 30px;
+  padding: 5px 10px;
+}
+
+.copyright {
+  padding: 10px 0;
+  font-size: 0;
+}
+/* Social media */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #7C2D28;
+  color: white;
+}
+
+.fa-youtube {
+  background: #F71607;
+  color: white;
+}
